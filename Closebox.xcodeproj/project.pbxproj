@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75DE9747803D498A99E2FB08 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F91DCC1848948439A419025 /* libPods.a */; };
+		C10709B517C11D6800DEEB1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10709B417C11D6800DEEB1D /* Foundation.framework */; };
+		C10709B717C11D6800DEEB1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10709B617C11D6800DEEB1D /* CoreGraphics.framework */; };
+		C10709B917C11D6800DEEB1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10709B817C11D6800DEEB1D /* UIKit.framework */; };
+		C10709C117C11D6800DEEB1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C10709C017C11D6800DEEB1D /* main.m */; };
+		C10709C517C11D6800DEEB1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C10709C417C11D6800DEEB1D /* AppDelegate.m */; };
+		C10709C717C11D6800DEEB1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C10709C617C11D6800DEEB1D /* Images.xcassets */; };
+		C10709E417C11DBF00DEEB1D /* postboxes.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = C10709E317C11DBF00DEEB1D /* postboxes.sqlite3 */; };
+		C10709EC17C11DC700DEEB1D /* ArrayTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C10709E717C11DC700DEEB1D /* ArrayTableViewDataSource.m */; };
+		C10709EE17C11DC700DEEB1D /* SegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10709EB17C11DC700DEEB1D /* SegmentedViewController.m */; };
+		C10709F417C11DCD00DEEB1D /* Postbox.m in Sources */ = {isa = PBXBuildFile; fileRef = C10709F117C11DCD00DEEB1D /* Postbox.m */; };
+		C10709F517C11DCD00DEEB1D /* PostboxesRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = C10709F317C11DCD00DEEB1D /* PostboxesRepository.m */; };
+		C10709FB17C11DD200DEEB1D /* SubtitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C10709F817C11DD200DEEB1D /* SubtitleCell.m */; };
+		C10709FC17C11DD200DEEB1D /* Value1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = C10709FA17C11DD200DEEB1D /* Value1Cell.m */; };
+		C1070A0417C11DDC00DEEB1D /* PostboxesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10709FF17C11DDC00DEEB1D /* PostboxesListViewController.m */; };
+		C1070A0517C11DDC00DEEB1D /* PostboxesMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1070A0117C11DDC00DEEB1D /* PostboxesMapViewController.m */; };
+		C1070A0617C11DDC00DEEB1D /* PostboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1070A0317C11DDC00DEEB1D /* PostboxViewController.m */; };
+		C17DFA501CE0FBD600482BBC /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DFA4F1CE0FBD600482BBC /* ApplicationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		632249227E21ECE28E439A17 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9F91DCC1848948439A419025 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10709B117C11D6800DEEB1D /* Closebox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Closebox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10709B417C11D6800DEEB1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C10709B617C11D6800DEEB1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C10709B817C11D6800DEEB1D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C10709BC17C11D6800DEEB1D /* Closebox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Closebox-Info.plist"; sourceTree = "<group>"; };
+		C10709C017C11D6800DEEB1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C10709C317C11D6800DEEB1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C10709C417C11D6800DEEB1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C10709C617C11D6800DEEB1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C10709CD17C11D6800DEEB1D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C10709E317C11DBF00DEEB1D /* postboxes.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = postboxes.sqlite3; sourceTree = "<group>"; };
+		C10709E617C11DC700DEEB1D /* ArrayTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayTableViewDataSource.h; sourceTree = "<group>"; };
+		C10709E717C11DC700DEEB1D /* ArrayTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTableViewDataSource.m; sourceTree = "<group>"; };
+		C10709EA17C11DC700DEEB1D /* SegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedViewController.h; sourceTree = "<group>"; };
+		C10709EB17C11DC700DEEB1D /* SegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedViewController.m; sourceTree = "<group>"; };
+		C10709F017C11DCD00DEEB1D /* Postbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Postbox.h; sourceTree = "<group>"; };
+		C10709F117C11DCD00DEEB1D /* Postbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Postbox.m; sourceTree = "<group>"; };
+		C10709F217C11DCD00DEEB1D /* PostboxesRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostboxesRepository.h; sourceTree = "<group>"; };
+		C10709F317C11DCD00DEEB1D /* PostboxesRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostboxesRepository.m; sourceTree = "<group>"; };
+		C10709F717C11DD200DEEB1D /* SubtitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitleCell.h; sourceTree = "<group>"; };
+		C10709F817C11DD200DEEB1D /* SubtitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitleCell.m; sourceTree = "<group>"; };
+		C10709F917C11DD200DEEB1D /* Value1Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Value1Cell.h; sourceTree = "<group>"; };
+		C10709FA17C11DD200DEEB1D /* Value1Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Value1Cell.m; sourceTree = "<group>"; };
+		C10709FE17C11DDC00DEEB1D /* PostboxesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostboxesListViewController.h; sourceTree = "<group>"; };
+		C10709FF17C11DDC00DEEB1D /* PostboxesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostboxesListViewController.m; sourceTree = "<group>"; };
+		C1070A0017C11DDC00DEEB1D /* PostboxesMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostboxesMapViewController.h; sourceTree = "<group>"; };
+		C1070A0117C11DDC00DEEB1D /* PostboxesMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostboxesMapViewController.m; sourceTree = "<group>"; };
+		C1070A0217C11DDC00DEEB1D /* PostboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostboxViewController.h; sourceTree = "<group>"; };
+		C1070A0317C11DDC00DEEB1D /* PostboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostboxViewController.m; sourceTree = "<group>"; };
+		C17DFA4E1CE0FBD600482BBC /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationController.h; sourceTree = "<group>"; };
+		C17DFA4F1CE0FBD600482BBC /* ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationController.m; sourceTree = "<group>"; };
+		DCED1C6036332B8D16D74CB2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10709AE17C11D6800DEEB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10709B717C11D6800DEEB1D /* CoreGraphics.framework in Frameworks */,
+				C10709B917C11D6800DEEB1D /* UIKit.framework in Frameworks */,
+				C10709B517C11D6800DEEB1D /* Foundation.framework in Frameworks */,
+				75DE9747803D498A99E2FB08 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5930384A98242428FE114EB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				632249227E21ECE28E439A17 /* Pods.debug.xcconfig */,
+				DCED1C6036332B8D16D74CB2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C10709A817C11D6800DEEB1D = {
+			isa = PBXGroup;
+			children = (
+				C10709BA17C11D6800DEEB1D /* Closebox */,
+				C10709B317C11D6800DEEB1D /* Frameworks */,
+				C10709B217C11D6800DEEB1D /* Products */,
+				5930384A98242428FE114EB0 /* Pods */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		C10709B217C11D6800DEEB1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10709B117C11D6800DEEB1D /* Closebox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C10709B317C11D6800DEEB1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C10709B417C11D6800DEEB1D /* Foundation.framework */,
+				C10709B617C11D6800DEEB1D /* CoreGraphics.framework */,
+				C10709B817C11D6800DEEB1D /* UIKit.framework */,
+				C10709CD17C11D6800DEEB1D /* XCTest.framework */,
+				9F91DCC1848948439A419025 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C10709BA17C11D6800DEEB1D /* Closebox */ = {
+			isa = PBXGroup;
+			children = (
+				C10709C317C11D6800DEEB1D /* AppDelegate.h */,
+				C10709C417C11D6800DEEB1D /* AppDelegate.m */,
+				C10709C017C11D6800DEEB1D /* main.m */,
+				C10709BC17C11D6800DEEB1D /* Closebox-Info.plist */,
+				C10709E317C11DBF00DEEB1D /* postboxes.sqlite3 */,
+				C10709C617C11D6800DEEB1D /* Images.xcassets */,
+				C10709FD17C11DDC00DEEB1D /* Controllers */,
+				C10709E517C11DC700DEEB1D /* Lib */,
+				C10709EF17C11DCD00DEEB1D /* Models */,
+				C10709F617C11DD200DEEB1D /* Views */,
+			);
+			path = Closebox;
+			sourceTree = "<group>";
+		};
+		C10709E517C11DC700DEEB1D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C10709E617C11DC700DEEB1D /* ArrayTableViewDataSource.h */,
+				C10709E717C11DC700DEEB1D /* ArrayTableViewDataSource.m */,
+				C10709EA17C11DC700DEEB1D /* SegmentedViewController.h */,
+				C10709EB17C11DC700DEEB1D /* SegmentedViewController.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C10709EF17C11DCD00DEEB1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C10709F017C11DCD00DEEB1D /* Postbox.h */,
+				C10709F117C11DCD00DEEB1D /* Postbox.m */,
+				C10709F217C11DCD00DEEB1D /* PostboxesRepository.h */,
+				C10709F317C11DCD00DEEB1D /* PostboxesRepository.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C10709F617C11DD200DEEB1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C10709F717C11DD200DEEB1D /* SubtitleCell.h */,
+				C10709F817C11DD200DEEB1D /* SubtitleCell.m */,
+				C10709F917C11DD200DEEB1D /* Value1Cell.h */,
+				C10709FA17C11DD200DEEB1D /* Value1Cell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C10709FD17C11DDC00DEEB1D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C17DFA4E1CE0FBD600482BBC /* ApplicationController.h */,
+				C17DFA4F1CE0FBD600482BBC /* ApplicationController.m */,
+				C10709FE17C11DDC00DEEB1D /* PostboxesListViewController.h */,
+				C10709FF17C11DDC00DEEB1D /* PostboxesListViewController.m */,
+				C1070A0017C11DDC00DEEB1D /* PostboxesMapViewController.h */,
+				C1070A0117C11DDC00DEEB1D /* PostboxesMapViewController.m */,
+				C1070A0217C11DDC00DEEB1D /* PostboxViewController.h */,
+				C1070A0317C11DDC00DEEB1D /* PostboxViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C10709B017C11D6800DEEB1D /* Closebox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10709DD17C11D6800DEEB1D /* Build configuration list for PBXNativeTarget "Closebox" */;
+			buildPhases = (
+				53F2CFE2A09849F19DE7F711 /* Check Pods Manifest.lock */,
+				C10709AD17C11D6800DEEB1D /* Sources */,
+				C10709AE17C11D6800DEEB1D /* Frameworks */,
+				C10709AF17C11D6800DEEB1D /* Resources */,
+				C4D0EDEB521043468B67C041 /* Copy Pods Resources */,
+				2F59F488FDBE4B3985F17D5D /* Warn for TODO and FIXME comments */,
+				B37411091B670FFF17551B0E /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Closebox;
+			productName = Closebox;
+			productReference = C10709B117C11D6800DEEB1D /* Closebox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C10709A917C11D6800DEEB1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = POG;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Pete O'Grady";
+				TargetAttributes = {
+					C10709B017C11D6800DEEB1D = {
+						DevelopmentTeam = D4EF7873AU;
+					};
+				};
+			};
+			buildConfigurationList = C10709AC17C11D6800DEEB1D /* Build configuration list for PBXProject "Closebox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C10709A817C11D6800DEEB1D;
+			productRefGroup = C10709B217C11D6800DEEB1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C10709B017C11D6800DEEB1D /* Closebox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10709AF17C11D6800DEEB1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10709E417C11DBF00DEEB1D /* postboxes.sqlite3 in Resources */,
+				C10709C717C11D6800DEEB1D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F59F488FDBE4B3985F17D5D /* Warn for TODO and FIXME comments */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn for TODO and FIXME comments";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+		53F2CFE2A09849F19DE7F711 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		B37411091B670FFF17551B0E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4D0EDEB521043468B67C041 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10709AD17C11D6800DEEB1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10709F517C11DCD00DEEB1D /* PostboxesRepository.m in Sources */,
+				C10709EE17C11DC700DEEB1D /* SegmentedViewController.m in Sources */,
+				C1070A0417C11DDC00DEEB1D /* PostboxesListViewController.m in Sources */,
+				C10709EC17C11DC700DEEB1D /* ArrayTableViewDataSource.m in Sources */,
+				C10709C117C11D6800DEEB1D /* main.m in Sources */,
+				C1070A0617C11DDC00DEEB1D /* PostboxViewController.m in Sources */,
+				C17DFA501CE0FBD600482BBC /* ApplicationController.m in Sources */,
+				C10709FC17C11DD200DEEB1D /* Value1Cell.m in Sources */,
+				C1070A0517C11DDC00DEEB1D /* PostboxesMapViewController.m in Sources */,
+				C10709F417C11DCD00DEEB1D /* Postbox.m in Sources */,
+				C10709FB17C11DD200DEEB1D /* SubtitleCell.m in Sources */,
+				C10709C517C11D6800DEEB1D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C10709DB17C11D6800DEEB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C10709DC17C11D6800DEEB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C10709DE17C11D6800DEEB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632249227E21ECE28E439A17 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Closebox/Closebox-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peteogrady.closebox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C10709DF17C11D6800DEEB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCED1C6036332B8D16D74CB2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Closebox/Closebox-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peteogrady.closebox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C10709AC17C11D6800DEEB1D /* Build configuration list for PBXProject "Closebox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10709DB17C11D6800DEEB1D /* Debug */,
+				C10709DC17C11D6800DEEB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C10709DD17C11D6800DEEB1D /* Build configuration list for PBXNativeTarget "Closebox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10709DE17C11D6800DEEB1D /* Debug */,
+				C10709DF17C11D6800DEEB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C10709A917C11D6800DEEB1D /* Project object */;
+}
